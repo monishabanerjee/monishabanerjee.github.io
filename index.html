@@ -59,7 +59,7 @@ Monisha Banerjee
 <h1>Hi, I'm Monisha</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 <a href="#!" class="btn btn-dark shake">Download Resume</a>
-<button class="btn btn-outline-dark ml-1">Lite App</button>
+<button id="liteApp" class="btn btn-outline-dark ml-1 d-none">Lite App</button>
 </div>
 
 <div class="col-sm-6">
@@ -173,19 +173,4 @@ Pennsylvania - 17401</p>
 </footer>
 <!-- footer end -->
 <script src="lib/bootstrap.bundle.min.js"></script>
-<script>
-function _(id){
-return document.getElementById(id)}
-
-function imgOpen(el){
-let modal=new bootstrap.Modal(_("imgModal"));
-let imgModalSrc=_("imgModalSrc");
-let imgModalAlt=_("imgModalAlt")
-imgModalSrc.src=el.src;
-imgModalAlt.innerText=el.alt;
-modal.toggle()
-}
-
-
-
-</script></body></html>
+<script src="app.js"></script></body></html>
