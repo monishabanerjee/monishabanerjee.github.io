@@ -23,7 +23,7 @@
 </head><body class="d-flex flex-column h-100 bg-light">
 <!-- header start -->
 <header>
-<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark py-1">
+<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark shadow py-1">
 <div class="container-lg">
 
 <a class="navbar-brand font-weight-bold" href="index.html">
@@ -70,9 +70,39 @@ Monisha Banerjee
 </div>
 <!-- hero area end -->
 
+<hr>
+
+<!-- gallery area start -->
+<div class="container-lg py-5">
+
+<div class="row gy-4">
+<div class="col-sm-4">
+<h2>Gallery</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+</div>
+
+<div class="col-sm-8" id="galleryBox">
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
+<img src="img/hd720.png" alt=".." class="img-fluid rounded" onclick="imgOpen(this)" />
 
 
+</div>
+</div>
 
+</div>
+<!-- gallery area end -->
+
+<hr>
 
 <!-- contact area start -->
 <div class="container-lg py-5">
@@ -92,24 +122,24 @@ Pennsylvania - 17401</p>
 <div class="col-sm-6">
 
 <div class="card p-3 shadow">
-<form>
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdFPFe9-91qEgmUj1DOOnMd5CiofspaD2GmUpRGNPLRf32XIQ/formResponse" method="POST">
 <div class="mb-3">
 <label for="name" class="form-label mb-0">Full Name</label>
-<input type="text" class="form-control p-2" id="name" placeholder="Write your full name here.." required>
+<input type="text" class="form-control p-2" id="name" placeholder="Write your full name here.." name="entry.302364476" required>
 </div>
 
 <div class="mb-3">
 <label for="email" class="form-label mb-0">Email</label>
-<input type="email" class="form-control p-2" id="email" placeholder="Let me know how to contact you back.." required>
+<input type="email" class="form-control p-2" id="email" placeholder="Let me know how to contact you back.." name="entry.209222738" required>
 </div>
 
 <div class="mb-3">
 <label for="msg" class="form-label mb-0">Message</label>
-<textarea class="form-control p-2" id="msg" rows="3" placeholder="What would you like to tell say.." required></textarea>
+<textarea class="form-control p-2" id="msg" rows="3" placeholder="What would you like to tell say.." name="entry.263107185" required></textarea>
 </div>
 
 <div class="form-check mb-3">
-<input class="form-check-input" type="checkbox" value="" id="consent" required>
+<input class="form-check-input" type="checkbox" value="true" id="consent" name="entry.1536085360" required>
 <label class="form-check-label" for="consent">I agree with the storage and handling of my data by this website.</label>
 </div>
 

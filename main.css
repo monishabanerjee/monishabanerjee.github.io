@@ -1,51 +1,58 @@
 body {font-family: 'Rubik', sans-serif}
 
-.navbar {background-color:#282c34 !important}
+.navbar {background-color:#212121 !important}
 
 .navbar-toggler .navbar-toggler-icon {background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240,240,240, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")}
 
 
-.btn-dark {background-color:#5C00A3 !important;
-border-color:#5C00A3 !important}
+.btn-dark {background-color:#5c00a3 !important;
+border-color:#5c00a3 !important}
 
-.btn-dark:hover, .btn-dark.active, .btn-dark:active {background-color:#00695c !important;
-border-color:#00695c !important;
-box-shadow:0 0 0 0.25rem rgba(0,105,92, 0.25) !important}
-
-
-
-
-
-.btn-close:hover, .btn-close.active, .btn-close:active {box-shadow:0 0 0 0.25rem rgba(0,105,92, 0.25) !important}
+.btn-dark:hover, .btn-dark.active, .btn-dark:active {background-color:#5c00a3 !important;
+border-color:#5c00a3 !important;
+box-shadow:0 0 0 0.25rem rgba(92,0,163,0.25) !important}
 
 
 
 
 
-.form-control:focus {border-color:#09d3ac;
-box-shadow:0 0 0 0.2rem rgba(0,105,92, 0.25)}
-
-.form-check-input:focus {border-color:#09d3ac;
-box-shadow:0 0 0 0.2rem rgba(0,105,92, 0.25)}
-
-.form-check-input:checked {border-color:#09d3ac;background-color:#09d3ac}
+.btn-close:hover, .btn-close.active, .btn-close:active {box-shadow:0 0 0 0.25rem rgba(92,0,163,0.25) !important}
 
 
 
 
 
+.form-control:focus {border-color:#5c00a3;
+box-shadow:0 0 0 0.2rem rgba(92,0,163,0.25)}
+
+.form-check-input:focus {border-color:#5c00a3;
+box-shadow:0 0 0 0.2rem rgba(92,0,163,0.25)}
+
+.form-check-input:checked {border-color:#5c00a3;background-color:#5c00a3}
 
 
 
 
-.border {border-color:#00695c !important}
+#galleryBox{
+
+column-count:4;
+column-width:25%;
+column-gap:2px
+}
+
+#galleryBox img {margin-bottom:2px}
 
 
-.shadow {box-shadow:0 0.5rem 1rem rgba(0,105,92,0.35) !important}
+
+
+.border {border-color:#5c00a3 !important}
+
+
+.shadow {box-shadow:0 0.5rem 1rem rgba(92,0,163,0.25) !important}
 
 
 
-.footer {background-color:#282c34 !important}
+.footer {background-color:#212121 !important}
 
 
 
