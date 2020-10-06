@@ -46,3 +46,22 @@ box-shadow:0 0 0 0.2rem rgba(0,105,92, 0.25)}
 
 
 .footer {background-color:#282c34 !important}
+
+
+
+.img-float {animation:imgFloat 2s infinite ease} @keyframes imgFloat {
+0%{margin-top:1rem; margin-bottom:0}
+40%{margin-top:0; margin-bottom:1rem}
+100%{margin-top:1rem; margin-bottom:0} }
+
+.shake {animation:shake 3s infinite;
+transform: translate3d(0, 0, 0);
+backface-visibility: hidden}
+@keyframes shake {
+2%, 18% {transform:translate3d(-1px, 0, 0)}
+4%, 16% {transform:translate3d(2px, 0, 0)}
+6%, 10%, 14% {transform:translate3d(-4px, 0, 0)} 8%, 12% {transform: translate3d(4px, 0, 0)} }
+
+
+
+
