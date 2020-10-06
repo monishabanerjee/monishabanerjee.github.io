@@ -1,0 +1,103 @@
+<!doctype html><html lang="en" class="h-100">
+<head><meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Monisha Banerjee</title>
+<link rel="stylesheet" href="lib/bootstrap.min.css" />
+<link rel="stylesheet" href="main.css" />
+
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head><body class="d-flex flex-column h-100 bg-light">
+
+<main class="flex-shrink-0 pt-5">
+
+<!-- hero area start -->
+<div class="container-lg pt-4 pb-5" id="heroArea">
+
+<div class="row gy-4">
+<div class="col-sm-6">
+<h1>Monisha Banerjee</h1>
+<p>Lorem ipsum.</p>
+<a href="#!" class="btn btn-dark">Download Resume</a>
+</div>
+
+<div class="col-sm-6">
+<img src="img/hd720.png" alt="..." class="img-fluid rounded img-float" onclick="imgOpen(this)" />
+</div>
+</div>
+
+</div>
+<!-- hero area end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="modal fade" id="imgModal" tabindex="-1" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+<div class="modal-content">
+<div class="modal-header py-2">
+<h5 class="modal-title">Monisha Banerjee</h5>
+<button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+</div>
+<img src="img/hd720.png" id="imgModalSrc" class="img-fluid" alt="...">
+<p id="imgModalAlt" class="text-center mb-2 px-2"></p>
+</div>
+</div>
+</div>
+
+
+</main>
+
+<!-- footer start -->
+<footer class="footer mt-auto pt-2 pb-4 bg-dark text-light">
+<div class="container-lg text-center">
+
+<div class="row g-2 justify-content-center align-items-center">
+<div class="col-sm-6 col-md-3">
+<span>Page Views: 2628</span>
+</div>
+<div class="col-sm-6 col-md-3">
+<span>Monisha Banerjee</span>
+</div>
+<div class="col-sm-6 col-md-3">
+<span>&copy; 2020</span>
+</div>
+</div>
+
+</div>
+</footer>
+<!-- footer end -->
+<script src="lib/bootstrap.bundle.min.js"></script>
+<script>
+function _(id){
+return document.getElementById(id)}
+
+function imgOpen(el){
+let modal=new bootstrap.Modal(_("imgModal"));
+let imgModalSrc=_("imgModalSrc");
+let imgModalAlt=_("imgModalAlt")
+imgModalSrc.src=el.src;
+imgModalAlt.innerText=el.alt;
+modal.toggle()
+}
+
+
+
+</script></body></html>
