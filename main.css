@@ -1,16 +1,16 @@
 body {font-family: 'Rubik', sans-serif}
 
-.navbar {background-color:#212121 !important}
+.navbar {background-color:#101010 !important}
 
 .navbar-toggler .navbar-toggler-icon {background-image:url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240,240,240, 1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")}
 
 
-.btn-dark {background-color:#5c00a3 !important;
-border-color:#5c00a3 !important}
+.btn-dark {background-color:#101010 !important;
+border-color:#263238 !important}
 
-.btn-dark:hover, .btn-dark.active, .btn-dark:active {background-color:#5c00a3 !important;
-border-color:#5c00a3 !important;
-box-shadow:0 0 0 0.25rem rgba(92,0,163,0.25) !important}
+.btn-dark:hover, .btn-dark.active, .btn-dark:active {background-color:#263238 !important;
+border-color:#263238 !important;
+box-shadow:0 0 0 0.25rem rgba(38,50,56,0.25) !important}
 
 
 
@@ -45,10 +45,10 @@ column-gap:2px
 
 
 
-.border {border-color:#5c00a3 !important}
+.border {}
 
 
-.shadow {box-shadow:0 0.5rem 1rem rgba(92,0,163,0.25) !important}
+.shadow {box-shadow:0 0.5rem 1rem rgba(16,16,16,0.25) !important}
 
 
 
@@ -71,4 +71,4 @@ backface-visibility: hidden}
 
 
 
-
+.certificates img {width:24%}

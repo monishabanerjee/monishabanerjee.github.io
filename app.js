@@ -3,13 +3,19 @@ return document.getElementById(id)}
 
 function imgOpen(el){
 let modal=new bootstrap.Modal(_("imgModal"));
-let imgModalSrc=_("imgModalSrc");
-let imgModalAlt=_("imgModalAlt")
-imgModalSrc.src=el.src;
-imgModalAlt.innerText=el.alt;
-modal.toggle()
-}
+_("imgModalSrc").src=el.src;
+_("imgModalAlt").innerText=el.alt;
+modal.toggle()}
 
+function updateViews(){
+fetch('https://api.countapi.xyz/update/rexarvind/home/?amount=1').then(res=>res.json())
+.then(res=>{_("pageViews").innerText=res.value
+})}
+updateViews();
+
+const date=new Date();
+const year=date.getFullYear();
+_("copyYear").innerText=year;
 
 
 
